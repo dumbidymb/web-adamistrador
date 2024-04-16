@@ -1,0 +1,92 @@
+.dardealta{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    flex-direction: row;
+    
+    
+}
+
+.cont-formulario{
+    width: 100vh;
+    height: 80vh;
+  
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-form{
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    border-bottom: 1px solid rgba(53, 53, 53, 0.418);
+}
+
+.cont-form2{
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont-form input{
+    width: 25vh;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+background-color: #8a78ff36;
+
+}
+.cont-form input::placeholder{
+    color: rgba(63, 63, 63, 0.744);
+}
+
+.calendario{
+    width: 30vh;
+    height: 10vh;
+    display: flex;
+}
+
+
+.modal{
+    width: 70vh;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+
+
+}
+
+#modal-title{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button-delete{
+margin-top: 5vh;
+        width: 15vh;
+        height: 6vh;
+        border-radius: 20px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+        margin-right: 30px;
+        border: #6391E8 solid 1px;
+        
+      
+      
+}
+
+.button-delete:hover{
+    background-color: #8a78ff67;
+    border: #1a1a1a solid 1px;
+}

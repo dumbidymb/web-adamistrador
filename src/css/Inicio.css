@@ -1,0 +1,391 @@
+header{
+    height: 10vh;
+display: flex;
+flex-direction: row;
+
+align-items: center;
+border-bottom: solid 1px#6392e861;
+
+
+}
+.p1{
+  display: flex;
+  flex-direction: row;
+  width: 20vh;
+  justify-content: end;
+
+  
+}
+.p1 img{
+  width: 10vh;
+
+}
+.p2{
+  display: flex;
+  justify-content: end;
+  width: 175vh;
+  height: 10vh;
+  align-items: center;
+
+}
+
+
+.bt2-p{
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  border: none;
+  background-color: none;
+}
+
+.bt1-p{
+  width: 15vh;
+  height: 6vh;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  margin-right: 30px;
+  border: #6391E8 solid 1px;
+
+}
+.bt1-p:hover{
+  background-color: #8a78ff67;
+  border: #1a1a1a solid 1px;
+}
+
+
+
+body{
+  background-image: url('https://www.mechatronicsart.com/wp-content/uploads/2016/06/Vilarpac_website_background.jpg'); /* Reemplaza con la ruta de tu imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-position: center center; /* Centra la imagen en el fondo */
+  background-attachment: fixed; /* Fija la imagen para que no se desplace con el contenido */
+  background-repeat: no-repeat; 
+}
+.bien{
+    display: flex;
+    justify-content:space-between ;
+    align-items:center ;
+  
+
+}
+.separar{
+    display: flex;
+    flex-direction: row;
+    width: 200vh;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+
+ 
+.cont-clientes{
+    width: 40vh;
+    height: 50vh;
+    border: rgba(83, 83, 83, 0.347) 1px solid;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.cont-clientes:hover{
+  box-shadow: rgba(0, 0, 0, 0.253) 2px 2px 20px 0px;
+}
+
+.elements-clients{
+  width: 40vh;
+  height: auto;
+  overflow: auto;
+  flex-direction: column;
+  display: flex;
+}
+
+.tarjet-client{
+  border: none;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+justify-content: space-around;
+align-items: center;
+border-top: rgba(98, 98, 98, 0.451) solid 1px;
+}
+
+
+
+.info-text-client{
+  
+width: 30vh;
+display: flex;
+
+
+
+}
+
+.form button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+  }
+  /* styling of whole input container */
+  .form {
+    --timing: 0.3s;
+    --width-of-input: auto;
+    --height-of-input: 40px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #2f2ee9;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    position: static;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg,#fff);
+  }
+  /* styling of Input */
+  .input {
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+  }
+  /* styling of animated border */
+  .form:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+  }
+  /* Hover on Input */
+  .form:focus-within {
+    border-radius: var(--after-border-radius);
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  /* here is code of animated border */
+  .form:focus-within:before {
+    transform: scale(1);
+  }
+  /* styling of close button */
+  /* == you can click the close button to remove text == */
+  .reset {
+    border: none;
+    background: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  /* close button shown when typing */
+  input:not(:placeholder-shown) ~ .reset {
+    opacity: 1;
+    visibility: visible;
+  }
+  /* sizing svg icons */
+  .form svg {
+    width: 17px;
+    margin-top: 3px;
+  }
+
+  .section-of-clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200vh;
+    height:80vh ;
+  
+
+    
+  }
+  .section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height:80vh ;
+  }
+
+  .cont-info-clients{
+    margin-top: 10vh;
+    width: 80vh;
+    height: 50vh;
+    border: rgba(83, 83, 83, 0.347) 1px solid;
+    border-radius: 5px;
+    background-color: #f0eeee84;
+    margin-bottom: 10vh;
+
+  }
+
+  .avatar{
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cont-first-info{
+    width: 80vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+
+  }
+  .cont-second-info{
+    width: 80vh;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+justify-content: end;
+align-items:center ;
+  }
+
+
+  .cont-frist-first{
+    width: 35vh;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cont-frist-second{
+    width: 45vh;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+flex-direction: column;
+
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+  }
+
+.botonspeed{
+  background-color: #1a1a1a;
+}
+
+.toolbar{
+  background-color: #47E4E8;
+  width: 205vh;
+}
+
+.mediciones-section{
+  width: 205vh;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionM-1{
+  width: 100%;
+  height: 50%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+.section1-sub1{
+  width: 40%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.tarjeta-info-m{
+  width: 50vh;
+  height: 25vh;
+  background-color: rgba(140, 140, 140, 0.232);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sectionM-2{
+  width: 205vh;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.section2-sub1{
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2-sub2{
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.actividad{
+  width: 100vh;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.425);
+  
+display: flex;
+flex-direction: column;
+
+  
+}
+
+.recientes{
+  width: 100%;
+  height: 40vh;
+
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.199);
+}
+
+.agregados-recientes{
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.recientes button{
+  width: 100%;
+  height: 10vh;
+background-color: transparent;
+  border: none;
+}

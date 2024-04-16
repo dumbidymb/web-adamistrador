@@ -1,0 +1,12 @@
+.cont-text-form{
+    width: 60vh;
+    height: 15vh;
+    border: 1px solid rgba(53, 53, 53, 0.418);
+text-align: left;
+align-items: center;
+}
+
+.alerta{
+    position: absolute;
+    right: 1%;
+}
